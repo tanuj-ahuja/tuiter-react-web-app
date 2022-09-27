@@ -1,0 +1,121 @@
+
+.wd-content-bookmarks {
+    color: white;
+    font-size: 20px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+#wd-content-handle {
+    color: lightgray;
+    font-size: 13px;
+    margin: 12px 0px 0px 16px;
+    padding-bottom: 12px;
+}
+
+.wd-grid-col {
+    float: left;
+    width: 100%;
+    background-color: black;
+}
+
+.wd-profile-profile {
+    border-radius: 48px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-author {
+    margin: 12px 0px 0px 12px;
+    color: white;
+    font-size: 15px;
+}
+
+.wd-handle {
+    margin: 12px 0px 0px 0px;
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-content {
+    margin: 0px 16px 12px 12px;
+    color: white;
+    font-size: 15px;
+    width: 506px;
+}
+
+.wd-grid-col-right-2 {
+    float: left;
+    width: max-content;
+}
+
+.wd-image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-left: 12px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+#wd-image-title {
+    color: white;
+    font-size: 15px;
+    width: 400px;
+}
+
+.wd-grid-col-left {
+    float: left;
+    width: min-content;
+    width: min-content;
+
+}
+
+#wd-title-div {
+    width: 478px;
+    margin-left: 12px;
+    padding: 12px;
+    border-style: none solid none solid;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.wd-image-content {
+    color: lightgrey;
+    font-size: 15px;
+    padding: 12px;
+    width: 478px;
+    margin: 0px 0px 0px 12px;
+    border-style: none solid solid solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icons {
+    text-decoration: none;
+}
+
+.icon-start {
+    margin-left: 12px;
+}
+
+.heart {
+    color: red;
+}
+
+.other-icons {
+    color: lightgray;
+}
+
+.number {
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+.grid-row-4-1 {
+    width: 25%;
+    float: left;
+    margin-top: 12px;
+}

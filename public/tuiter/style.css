@@ -1,0 +1,16 @@
+.wd-parent {
+    background-color: black;
+}
+
+.wd-grid-row {
+    clear: both;
+    overflow: hidden;
+    background-color: black;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+body {
+    background-color: black;
+}
