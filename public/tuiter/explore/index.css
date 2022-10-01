@@ -1,17 +1,21 @@
 input.wd-search-box {
     border-radius: 50px;
-    background-color: darkgray;
+    background-color: white;
     color: white;
+    width: 100%;
+    padding: 10px 10px 10px 30px;
 }
 
 .wd-settings {
-    color: deepskyblue;
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top:6px;
 }
 
 .wd-grid-row {
     clear: both;
     overflow: hidden;
-    background-color: black;
     border-color: rgb(47, 51, 54);
     border-width: 1px;
     border-style: solid;
@@ -19,15 +23,17 @@ input.wd-search-box {
 
 .wd-grid-row-links {
     clear: both;
-    background-color: black;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.wd-trends {
+    margin-top: 8px;
 }
 
 .wd-grid-col-left {
     float: left;
     width: max-content;
-
 }
 
 .wd-grid-col-right {
@@ -67,6 +73,7 @@ input.wd-search-box {
     color: white;
 }
 
+
 .wd-content-author {
     color: white;
 }
@@ -74,4 +81,77 @@ input.wd-search-box {
 .wd-content-image {
     border-radius: 10px;
     margin-right: 16px;
+}
+
+.wd-flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 8px 100px 0px 100px;
+}
+
+.wd-sidebar {
+    margin-bottom: 8px;
+}
+
+.wd-search-panel {
+    margin-bottom: 8px;
+}
+
+.btn-primary.override-bs {
+    border-radius: 20px;
+}
+
+.container-global {
+    width: 100%;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.card-body.override-bs {
+    padding: 0px 0px 0px 10px;
+}
+
+.wd-circled-tick {
+    color: white;
+}
+
+.wd-follow-logo {
+    border-radius:20px;
+    margin: 8px 0px 4px 16px;
+}
+
+.wd-top-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.wd-trends-image {
+    padding: 10px;
+}
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 12px 10px 10px 10px;
+    min-width: 40px;
 }
