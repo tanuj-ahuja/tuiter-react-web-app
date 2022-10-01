@@ -6,7 +6,7 @@
     margin-top: 12px;
 }
 
-#wd-content-handle {
+.wd-content-handle {
     color: lightgray;
     font-size: 13px;
     margin: 12px 0px 0px 16px;
@@ -58,7 +58,7 @@
     border-color: lightgray;
 }
 
-#wd-image-title {
+.wd-image-title {
     color: white;
     font-size: 15px;
     width: 400px;
@@ -71,7 +71,7 @@
 
 }
 
-#wd-title-div {
+.wd-title-div {
     width: 478px;
     margin-left: 12px;
     padding: 12px;
@@ -118,4 +118,5 @@
     width: 25%;
     float: left;
     margin-top: 12px;
+    margin-bottom: 10px;
 }

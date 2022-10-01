@@ -2,10 +2,13 @@ input.wd-search-box {
     border-radius: 50px;
     background-color: darkgray;
     color: white;
+    width: 100%;
 }
 
 .wd-settings {
     color: deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .wd-grid-row {
@@ -26,7 +29,7 @@ input.wd-search-box {
 
 .wd-grid-col-left {
     float: left;
-    width: max-content;
+    width: 95%;
 
 }
 
@@ -52,6 +55,7 @@ input.wd-search-box {
 .wd-header-links {
     padding: 16px;
     font-size: 15px;
+    width: 16.66%
 }
 
 .wd-content {

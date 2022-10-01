@@ -1,7 +1,7 @@
-p {
-    background-color: blue;
-    color: white;
-}
+/*p {*/
+/*    background-color: blue;*/
+/*    color: white;*/
+/*}*/
 p#id-selector-1 {
     background-color: red;
     color: white;
@@ -311,6 +311,8 @@ p#id-selector-2 {
 .animation-keyframes-2 {
     position: relative;
     top: 0px;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     animation-duration: 7s;
     animation-name: mymove;
     width: 200px;
@@ -506,4 +508,59 @@ and (max-width: 1800px) {
         font-size: 100px;
     }
 }}
+
+@media (min-width: 0px)
+and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 600px)
+and (max-width: 1200px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media (min-width: 0px)
+and (max-width: 600px) {
+    body {
+        background-color: yellow;
+    }
+    .media-query {
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 600px)
+and (max-width: 1200px) {
+    body {
+        background-color: blue;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: black;
+    }
+}
+@media (min-width: 1200px)
+and (max-width: 1800px) {
+    body {
+        background-color: red;
+        color: white;
+    }
+    .media-query {
+        background-color: blue;
+        color: white;
+    }
+}
 
