@@ -23,8 +23,6 @@ input.wd-search-box {
 
 .wd-grid-row-links {
     clear: both;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
 .wd-trends {
@@ -33,7 +31,7 @@ input.wd-search-box {
 
 .wd-grid-col-left {
     float: left;
-    width: max-content;
+    width: 100%;
 }
 
 .wd-grid-col-right {
@@ -60,6 +58,14 @@ input.wd-search-box {
     font-size: 15px;
 }
 
+.wd-first-sidebar-icons {
+    padding: 4px 4px 0px 0px;
+}
+
+.wd-sidebar-item {
+    display: flex;
+}
+
 .wd-content {
     font-size: 13px;
     margin: 0px;
@@ -83,22 +89,8 @@ input.wd-search-box {
     margin-right: 16px;
 }
 
-.wd-flex-container {
-    display: flex;
-    justify-content: center;
-    margin: 8px 100px 0px 100px;
-}
-
-.wd-sidebar {
-    margin-bottom: 8px;
-}
-
 .wd-search-panel {
     margin-bottom: 8px;
-}
-
-.btn-primary.override-bs {
-    border-radius: 20px;
 }
 
 .container-global {
