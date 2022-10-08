@@ -1,0 +1,219 @@
+body {
+    background-color: black;
+}
+
+input.wd-search-box {
+    border-radius: 50px;
+    background-color: darkgray;
+    color: white;
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+}
+
+.wd-settings {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-top:8px;
+}
+
+
+
+.wd-grid-row {
+    clear: both;
+    overflow: hidden;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-grid-row-links {
+    height: max-content;
+}
+
+.wd-trends {
+    margin-top: 8px;
+}
+
+.wd-grid-col-left {
+    float: left;
+    width: 100%;
+}
+
+.wd-grid-col-right {
+    float: right;
+    width: max-content;
+    margin-right: 12px;
+}
+
+.wd-for-you {
+    color: rgb(29,161,242);
+    text-decoration: none;
+    border-bottom: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-width: 3px;
+}
+
+.wd-rest-links {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-header-links {
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-first-sidebar-icons {
+    padding: 4px 15px 0px 0px;
+}
+
+.wd-sidebar-item {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.wd-content {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.wd-content-topic {
+    color: rgb( 110, 118, 125);
+}
+
+.wd-content-title {
+    color: white;
+}
+
+
+.wd-content-author {
+    color: white;
+}
+
+.wd-content-image {
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.wd-search-panel {
+    margin-bottom: 8px;
+}
+
+.container-global {
+    width: 100%;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+    font-size: 10px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+}
+
+.card-body.override-bs {
+    padding: 0px 0px 0px 10px;
+}
+
+.card-title.override-bs {
+    margin: 0px;
+}
+
+.wd-color-dblue {
+    color: dodgerblue;
+}
+
+.nav-link.override-bs {
+    color: darkgray;
+}
+
+.wd-tick {
+    margin-left: 3px
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-dark-gray {
+    background-color: rgb(101 119 134);
+}
+
+.wd-main-content {
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: darkgray;
+    padding: 0px;
+}
+
+.wd-tabs {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: darkgray;
+}
+
+.nav-link.last-tab {
+    border-bottom-color: dodgerblue;
+    border-width: 6px;
+}
+
+.nav-tabs.override-bs {
+    border: none;
+}
+
+.wd-circled-tick {
+    color: white;
+}
+
+.wd-follow-logo {
+    border-radius:20px;
+    margin: 8px 0px 4px 16px;
+}
+
+.wd-top-img {
+    position: relative;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: darkgray;
+    color: white;
+}
+
+.card.override-bs {
+    background-color: black;
+    background-color: black;
+}
+
+/* Bottom left text */
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.wd-image-image {
+    font-size: 30px;
+}
+
+.wd-trends-image {
+    padding: 10px;
+}
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 12px 10px 10px 10px;
+    min-width: 40px;
+}
