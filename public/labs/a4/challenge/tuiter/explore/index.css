@@ -4,10 +4,11 @@ body {
 
 input.wd-search-box {
     border-radius: 50px;
-    background-color: darkgray;
+    background-color: #282c34;
     color: white;
     width: 100%;
     padding: 10px 10px 10px 30px;
+    border-style: none;
 }
 
 .wd-settings {
@@ -17,7 +18,9 @@ input.wd-search-box {
     padding-top:8px;
 }
 
-
+.wd-color-gray {
+    color: darkgray;
+}
 
 .wd-grid-row {
     clear: both;
@@ -139,7 +142,7 @@ input.wd-search-box {
 }
 
 .wd-color-dark-gray {
-    background-color: rgb(101 119 134);
+    background-color:#282c34;
 }
 
 .wd-main-content {
@@ -211,6 +214,7 @@ input.wd-search-box {
 .wd-input-icons {
     width: 100%;
     margin-bottom: 10px;
+    padding: 0px 0px 0px 10px;
 }
 
 .wd-icon {
