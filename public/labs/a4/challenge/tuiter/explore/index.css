@@ -1,16 +1,25 @@
+body {
+    background-color: black;
+}
+
 input.wd-search-box {
     border-radius: 50px;
-    background-color: white;
+    background-color: #282c34;
     color: white;
     width: 100%;
-    padding: 10px 20px 10px 30px;
+    padding: 10px 10px 10px 30px;
+    border-style: none;
 }
 
 .wd-settings {
-    color: dodgerblue;
+    color: white;
     text-decoration: none;
-    font-size: 25px;
-    padding-top:6px;
+    font-size: 15px;
+    padding-top:8px;
+}
+
+.wd-color-gray {
+    color: darkgray;
 }
 
 .wd-grid-row {
@@ -22,7 +31,7 @@ input.wd-search-box {
 }
 
 .wd-grid-row-links {
-    clear: both;
+    height: max-content;
 }
 
 .wd-trends {
@@ -59,11 +68,14 @@ input.wd-search-box {
 }
 
 .wd-first-sidebar-icons {
-    padding: 4px 4px 0px 0px;
+    padding: 4px 15px 0px 0px;
 }
 
 .wd-sidebar-item {
     display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
 
 .wd-content {
@@ -101,10 +113,58 @@ input.wd-search-box {
     border-radius: 20px;
     font-size: 10px;
     margin: 10px;
+    color: black;
+    background-color: white;
 }
 
 .card-body.override-bs {
     padding: 0px 0px 0px 10px;
+}
+
+.card-title.override-bs {
+    margin: 0px;
+}
+
+.wd-color-dblue {
+    color: dodgerblue;
+}
+
+.nav-link.override-bs {
+    color: darkgray;
+}
+
+.wd-tick {
+    margin-left: 3px
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-dark-gray {
+    background-color:#282c34;
+}
+
+.wd-main-content {
+    border-style: solid;
+    border-width: 0px 1px 0px 1px;
+    border-color: darkgray;
+    padding: 0px;
+}
+
+.wd-tabs {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: darkgray;
+}
+
+.nav-link.last-tab {
+    border-bottom-color: dodgerblue;
+    border-width: 6px;
+}
+
+.nav-tabs.override-bs {
+    border: none;
 }
 
 .wd-circled-tick {
@@ -119,7 +179,15 @@ input.wd-search-box {
 .wd-top-img {
     position: relative;
     text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: darkgray;
     color: white;
+}
+
+.card.override-bs {
+    background-color: black;
+    background-color: black;
 }
 
 /* Bottom left text */
@@ -127,6 +195,11 @@ input.wd-search-box {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.wd-image-image {
     font-size: 30px;
 }
 
@@ -141,9 +214,10 @@ input.wd-search-box {
 .wd-input-icons {
     width: 100%;
     margin-bottom: 10px;
+    padding: 0px 0px 0px 10px;
 }
 
 .wd-icon {
-    padding: 12px 20px 10px 10px;
+    padding: 12px 10px 10px 10px;
     min-width: 40px;
 }
