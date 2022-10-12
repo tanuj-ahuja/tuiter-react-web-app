@@ -1,0 +1,175 @@
+input.wd-search-box {
+    border-radius: 50px;
+    background-color: white;
+    color: white;
+    width: 100%;
+    padding: 10px 20px 10px 30px;
+}
+
+.wd-settings {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top:6px;
+}
+
+.wd-grid-row {
+    clear: both;
+    overflow: hidden;
+    border-color: rgb(47, 51, 54);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.wd-grid-row-links {
+    clear: both;
+}
+
+.wd-trends {
+    margin-top: 8px;
+}
+
+.wd-grid-col-left {
+    float: left;
+    width: 100%;
+}
+
+.wd-grid-col-right {
+    float: right;
+    width: max-content;
+    margin-right: 12px;
+}
+
+.wd-for-you {
+    color: rgb(29,161,242);
+    text-decoration: none;
+    border-bottom: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-width: 3px;
+}
+
+.wd-rest-links {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
+.wd-header-links {
+    padding: 16px;
+    font-size: 15px;
+}
+
+.wd-first-sidebar-icons {
+    padding: 4px 4px 0px 0px;
+}
+
+.wd-sidebar-item {
+    display: flex;
+}
+
+.wd-content {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.wd-content-topic {
+    color: rgb( 110, 118, 125);
+}
+
+.wd-content-title {
+    color: white;
+}
+
+
+.wd-content-author {
+    color: white;
+}
+
+.wd-content-image {
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.wd-search-panel {
+    margin-bottom: 8px;
+}
+
+.container-global {
+    width: 100%;
+}
+
+.btn-primary.wd-follow-button {
+    border-radius: 20px;
+    font-size: 10px;
+    margin: 10px;
+}
+
+.card-body.override-bs {
+    padding: 0px 0px 0px 10px;
+}
+
+.wd-circled-tick {
+    color: white;
+}
+
+.wd-follow-logo {
+    border-radius:20px;
+    margin: 8px 0px 4px 16px;
+}
+
+.wd-top-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+
+.wd-trends-image {
+    padding: 10px;
+}
+
+.wd-input-icons i {
+    position: absolute;
+}
+
+.wd-input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.wd-icon {
+    padding: 12px 20px 10px 10px;
+    min-width: 40px;
+}
+
+.wd-grey {
+    color: #282c34;
+}
+
+.wd-border-color-grey {
+    border-color: #282c34;
+    border-style: solid;
+}
+
+.wd-border-bottom-grey {
+    border-color: #282c34;
+    border-bottom-style: solid;
+}
+
+.wd-border-top-grey {
+    border-color: #282c34;
+    border-top-style: solid;
+}
+
+
+
+.wd-border-se-color-grey {
+    border-color: #282c34;
+    border-style: solid;
+}
