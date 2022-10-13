@@ -6,7 +6,7 @@ const ExploreComponent = () => {
     <form>
         <div class="wd-grid-col-left wd-input-icons">
             <i class="wd-icon">&#x1F50D;</i>
-    <input class="wd-search-box" id="text-fields-username" placeholder="Search Tuiter"/>
+    <input class="wd-search-box ps-5" id="text-fields-username" placeholder="Search Tuiter"/>
         </div>
 
 </form>
