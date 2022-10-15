@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-primary.wd-follow-button {
+  border-radius: 20px;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.wd-search-panel {
+  margin-bottom: 8px;
+}
+
+.wd-grid-col-left {
+  float: left;
+  width: 100%;
+}
+
+.wd-input-icons i {
+  position: absolute;
+}
+
+.wd-icon {
+  padding: 12px 20px 10px 10px;
+  min-width: 40px;
+}
+
+input.wd-search-box {
+  border-radius: 50px;
+  border-color: lightgrey;
+  border-width: 1px;
+  color: white;
+  width: 100%;
+  padding: 10px 20px 10px 30px;
+}
+
+.wd-grid-col-right {
+  float: right;
+  width: max-content;
+  margin-right: 12px;
+}
+
+.wd-settings {
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 25px;
+  padding-top:6px;
+}
+
+.wd-grid-row-links {
+  clear: both;
+}
+
+.wd-top-img {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.wd-bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 30px;
+}
+
+.wd-trends-image {
+  padding: 10px;
+}

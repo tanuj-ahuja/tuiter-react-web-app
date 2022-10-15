@@ -1,0 +1,17 @@
+[
+  {
+    "userName": "NASA",
+    "handle": "NASA",
+    "avatarIcon": "../../images/nasa.png"
+  },
+  {
+    "userName": "Tesla",
+    "handle": "tesla",
+    "avatarIcon": "../../images/tesla.png"
+  },
+  {
+    "userName": "SpaceX",
+    "handle": "SpaceX",
+    "avatarIcon": "../../images/space.png"
+  }
+]
