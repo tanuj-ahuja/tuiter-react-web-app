@@ -5,7 +5,7 @@ const NavigationSidebar = () => {
             <i class="fab fa-twitter fa-1x"></i></a>
         <a href="../home.html" class="list-group-item list-group-item-action wd-sidebar-item" style="display: flex">
             <i class="fa fa-home fa-1x wd-first-sidebar-icons"></i> <nobr class="d-none d-xl-block">Home</nobr></a>
-        <a href="../explore/index.html" class="list-group-item list-group-item-action active wd-sidebar-item" style="display: flex">
+        <a href="../explore/index123.html" class="list-group-item list-group-item-action active wd-sidebar-item" style="display: flex">
             <i class="fa fa-hashtag fa-1x wd-first-sidebar-icons"></i> <nobr class="d-none d-xl-block">Explore</nobr></a>
         <a href="#" class="list-group-item list-group-item-action wd-sidebar-item" style="display: flex">
             <i class="fa fa-bell fa-1x wd-first-sidebar-icons"></i> <nobr class="d-none d-xl-block">Notifications</nobr></a>
