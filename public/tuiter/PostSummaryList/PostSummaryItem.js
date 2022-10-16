@@ -7,11 +7,11 @@ const PostSummaryItem = (post) => {
                 <div class="col-9">
                     <div class="card-body override-bs">
                         <p class="card-text" style="margin: 0px"><small class="text-muted" style="font-size: 14px">${post.topic}</small></p>
-                        <b class="card-title" style="font-size: 15px;" >${post.userName} <span class="fa-stack fa-1x" style="font-size: 6px">
+                        <b class="card-title text-white" style="font-size: 15px;" >${post.userName} <span class="fa-stack fa-1x" style="font-size: 6px">
                                     <i class="fas fa-solid fa-stack-2x fa-circle"></i>
                             <i class="fas fa-solid fa-stack-1x fa-check" style="color: white"></i></span></b>
                                  - <small class="text-muted">${post.time}</small>
-                        <div></div><strong style="font-size: 14px;">${post.title}</strong></div>
+                        <div></div><strong class="text-white" style="font-size: 14px;">${post.title}</strong></div>
 
                     </div>
                 <div class="col-3">

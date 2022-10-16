@@ -10,11 +10,11 @@ const WhoToFollowListItem = (who) => {
                         <button class="btn btn-primary wd-follow-button fa-pull-right">
                             Follow
                         </button>
-                        <h7 class="card-title" style="font-size: 15px;" ><b>${who.userName}</b> <span class="fa-stack fa-1x" style="font-size: 6px">
+                        <h7 class="card-title text-white" style="font-size: 15px;" ><b>${who.userName}</b> <span class="fa-stack fa-1x" style="font-size: 6px">
                             <i class="fas fa-solid fa-stack-2x fa-circle"></i>
                             <i class="fas fa-solid fa-stack-1x fa-check" style="color: white"></i>
                         </span></h7>
-                        <p class="card-text"><small class="text-muted" style="font-size: 14px">${who.handle}</small></p>
+                        <p class="card-text"><small class="text-white" style="font-size: 14px">${who.handle}</small></p>
                     </div>
                 </div>
             </div>

@@ -1,10 +1,25 @@
 
 
 const PostItem = (post) => {
+    let hasContent = true;
+    let hasTitle = true;
+    let titleClass = "pt-2 pb-1";
+    let contentClass = "pb-2";
+
+    if (post.title === "") {
+        hasTitle = false;
+        titleClass = "";
+    }
+    if (post.content === "") {
+        hasContent = false;
+        contentClass = "";
+    }
+
+
     return(`
         <div class="row wd-border-bottom-grey pt-2">
             <div class="col-1">
-                <img src="../../images/logo512.png" height="40px" width="40px" class="rounded-circle">
+                <img src=${post.userPhoto} height="40px" width="40px" class="rounded-circle">
             </div>
             <div class="col-11">
              <b class="text-white">${post.user} </b> <span class="text-muted" style="font-size: 14px"> <span class="fa-stack fa-1x" style="font-size: 6px">
@@ -12,11 +27,11 @@ const PostItem = (post) => {
                             <i class="fas fa-solid fa-stack-1x fa-check" style="color: black"></i></span> ${post.handle} · ${post.time}</span>
             <p>${post.tweet}</p>
             <div class="row rounded wd-border-color-grey me-2">
-            <img class="wd-image wd-border-bottom-grey pb-2" src="../../images/logo512.png" width="100%" height="264px">
+            <img class="wd-image wd-border-bottom-grey p-0" src=${post.image} width="100%" height="264px">
 <!--            <br>-->
 
-            <span class="text-white">${post.title}</span>
-            <span>${post.content}</span>
+            <span class="text-white ${titleClass}">${post.title}</span>
+            <span class="${contentClass}">${post.content}</span>
             </div>
             <div class="row pt-2 pb-2">
             
