@@ -10,7 +10,7 @@ const WhoToFollowList = () => {
                 <b>Who to follow</b></a>
             {
                 whoArray.map(who =>
-                    <WhoToFollowListItem who={who}/>)
+                    <WhoToFollowListItem key={who.userName} who={who}/>)
             }
         </div>
     );

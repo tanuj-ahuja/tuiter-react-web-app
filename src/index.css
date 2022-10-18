@@ -78,3 +78,19 @@ input.wd-search-box {
 .wd-trends-image {
   padding: 10px;
 }
+
+.wd-border-bottom-grey {
+  border-color: lightgrey;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+.wd-border-color-grey {
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.wd-grey {
+  color: #282c34;
+}

@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="list-group">
             {
-                postsArray.map(item => <PostItem post={item}/>)
+                postsArray.map(item => <PostItem key={item.user}  post={item}/>)
             }
         </div>
     )
