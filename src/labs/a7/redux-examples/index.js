@@ -16,11 +16,11 @@ const store = configureStore({
 const ReduxExamples = () => {
     return(
         <Provider store={store}>
-        <div>
-            <h2>Redux Examples</h2>
-            <Todos/>
-            <HelloReduxExampleComponent/>
-        </div>
+            <div>
+                <h2>Redux Examples</h2>
+                <Todos/>
+                <HelloReduxExampleComponent/>
+            </div>
         </Provider>
     );
 };
