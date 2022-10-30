@@ -75,6 +75,20 @@ input.wd-search-box {
   font-size: 30px;
 }
 
+.wd-bottom-left-profile {
+  position: absolute;
+  bottom: 210px;
+  left: 16px;
+  font-size: 30px;
+}
+
+.wd-bottom-left-profile-edit {
+  position: absolute;
+  bottom: 475px;
+  left: 16px;
+  font-size: 30px;
+}
+
 .wd-trends-image {
   padding: 10px;
 }
